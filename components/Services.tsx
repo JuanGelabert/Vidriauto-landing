@@ -26,13 +26,13 @@ const services = [
   {
     icon: FiShield,
     title: 'Garantía y Respaldo',
-    description: 'Trabajamos con marcas nacionales e internacionales reconocidas, que cumplen con exigentes estándares del sector automotor.',
+    description: 'Todos nuestros productos cuentan con garantía y respaldo comercial, asegurando confianza y seguridad en cada operación.',
     color: 'from-blue-500 to-blue-600',
   },
   {
     icon: FiCheckCircle,
     title: 'Calidad Certificada',
-    description: 'Utilizamos materiales de primera calidad y técnicas profesionales avaladas por años de experiencia.',
+    description: 'Trabajamos con marcas nacionales e internacionales reconocidas, que cumplen con exigentes estándares del sector automotor.',
     color: 'from-orange-500 to-orange-600',
   },
   {
