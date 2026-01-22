@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <Image src="/images/logo.png" alt="Vidriauto logo" width={120} height={120} className="mx-auto" />
+            <Image src="/images/logo-blanco.png" alt="Vidriauto logo" width={120} height={120} className="mx-auto" />
             <p className="text-base-white/70 text-sm leading-relaxed text-center">
               {siteConfig.company.description}
             </p>
@@ -50,10 +50,12 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Servicios</h3>
             <ul className="space-y-2 text-sm text-base-white/70">
-              <li>Reparación de Parabrisas</li>
-              <li>Reemplazo de Vidrios</li>
-              <li>Servicio a Domicilio</li>
-              <li>Garantía Total</li>
+              <li>Lógica y Envíos</li>
+              <li>Variedad de Stock</li>
+              <li>Servicio Rápido</li>
+              <li>Calidad Certificada</li>
+              <li>Atención Personalizada</li>
+              <li>Garantía y Respaldo</li>
             </ul>
           </div>
 

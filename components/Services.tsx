@@ -1,44 +1,45 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { FiShield, FiTool, FiClock, FiCheckCircle, FiAward, FiTruck } from 'react-icons/fi'
+import { FiShield, FiClock, FiCheckCircle, FiUser, FiTruck } from 'react-icons/fi'
+import { LuWarehouse } from 'react-icons/lu'
 
 const services = [
   {
-    icon: FiShield,
-    title: 'Reparación de Parabrisas',
-    description: 'Reparamos grietas y astillas en tu parabrisas de forma rápida y efectiva, evitando el reemplazo completo.',
+    icon: LuWarehouse,
+    title: 'Variedad de Stock',
+    description: 'Amplia disponibilidad de cristales del automotor, con cobertura de múltiples modelos y reposición permanente..',
     color: 'from-primary-500 to-primary-600',
   },
   {
-    icon: FiTool,
-    title: 'Reemplazo de Vidrios',
-    description: 'Instalación profesional de vidrios nuevos con garantía de calidad y sellado perfecto.',
-    color: 'from-primary-500 to-primary-600',
+    icon: FiTruck,
+    title: 'Logística y Envíos',
+    description: 'Distribución a todo el país con soluciones logísticas seguras y adaptadas a cada cliente.',
+    color: 'from-yellow-500 to-yellow-600',
   },
   {
     icon: FiClock,
     title: 'Servicio Rápido',
-    description: 'Atención inmediata y trabajos realizados en el menor tiempo posible sin comprometer la calidad.',
+    description: 'Atención inmediata y gestión eficiente de pedidos, optimizando tiempos de respuesta y entrega para nuestros clientes.',
     color: 'from-green-500 to-green-600',
   },
   {
-    icon: FiCheckCircle,
-    title: 'Garantía Total',
-    description: 'Todos nuestros trabajos cuentan con garantía escrita. Tu tranquilidad es nuestra prioridad.',
-    color: 'from-purple-500 to-purple-600',
+    icon: FiShield,
+    title: 'Garantía y Respaldo',
+    description: 'Trabajamos con marcas nacionales e internacionales reconocidas, que cumplen con exigentes estándares del sector automotor.',
+    color: 'from-blue-500 to-blue-600',
   },
   {
-    icon: FiAward,
-    title: 'Calidad Premium',
+    icon: FiCheckCircle,
+    title: 'Calidad Certificada',
     description: 'Utilizamos materiales de primera calidad y técnicas profesionales avaladas por años de experiencia.',
     color: 'from-orange-500 to-orange-600',
   },
   {
-    icon: FiTruck,
-    title: 'Servicio a Domicilio',
-    description: 'Nos desplazamos hasta tu ubicación para brindarte la mejor comodidad y atención personalizada.',
-    color: 'from-primary-500 to-primary-600',
+    icon: FiUser,
+    title: 'Atención Personalizada',
+    description: 'Asesoramiento comercial cercano y profesional, adaptado a las necesidades de cada cliente.',
+    color: 'from-purple-500 to-purple-600',
   },
 ]
 
@@ -57,8 +58,7 @@ export default function Services() {
             Nuestros Servicios
           </h2>
           <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
-            Soluciones completas para el cuidado de los vidrios de tu vehículo
-          </p>
+            Soluciones integrales para la provisión de cristales del automotor          </p>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

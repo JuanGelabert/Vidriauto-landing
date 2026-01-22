@@ -76,10 +76,9 @@ export default function Hero() {
                   transition={{ delay: 0.5, duration: 0.6 }}
                   className="text-base sm:text-lg md:text-xl text-white/90 mb-8 leading-relaxed max-w-2xl"
                 >
-                  Somos una distribuidora de cristales del automotor de La Plata con más de {siteConfig.company.yearsExperience} años de trayectoria que nació con el sueño de transformar la realidad del sector.
+                  <strong>Con más de 20 años de experiencia en el sector, trabajamos con marcas internacionales y nacionales, ofreciendo stock permanente, respaldo técnico y envíos a todo el país.</strong> 
                 </motion.p>
 
-                {/* Botones - Mantener diseño actual */}
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}

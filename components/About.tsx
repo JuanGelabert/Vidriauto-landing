@@ -28,13 +28,13 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-lg text-secondary-700 leading-relaxed">
               <p>
-                En <strong>{siteConfig.company.name}</strong>, nos especializamos en la reparación y reemplazo de vidrios para vehículos con más de {siteConfig.company.yearsExperience} años de experiencia en el mercado.
+                Somos una distribuidora mayorista especializada en cristales del automotor, con más de <strong>20 años de experiencia</strong> en el mercado.
               </p>
               <p>
-                Nuestro compromiso es brindar un servicio de excelencia, utilizando materiales de primera calidad y técnicas profesionales que garantizan la seguridad y durabilidad de cada trabajo.
+                Abastecemos a colocadoras del rubro en todo el país, trabajando con marcas nacionales e internacionales y ofreciendo stock permanente, atención personalizada y soluciones logísticas eficientes.
               </p>
               <p>
-                Trabajamos con todas las marcas y modelos de vehículos, ofreciendo soluciones rápidas y eficientes para mantener tu auto en perfectas condiciones.
+                Nuestro conocimiento del mercado aporta previsibilidad operativa, acompañando a nuestros clientes con un proveedor confiable para el desarrollo de su actividad.
               </p>
             </div>
           </motion.div>

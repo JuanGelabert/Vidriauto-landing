@@ -5,22 +5,22 @@ import { FiStar } from 'react-icons/fi'
 
 const testimonials = [
   {
-    name: 'Carlos Rodríguez',
-    vehicle: 'Toyota Corolla 2020',
+    name: 'Colocadora de cristales',
+    place: 'Ciudad autónoma de Buenos Aires',
     rating: 5,
-    comment: 'Excelente servicio. Repararon mi parabrisas en menos de una hora y quedó perfecto. Muy profesionales y atentos.',
+    comment: 'Proveedor confiable, con buena disponibilidad de stock y entregas en tiempo.',
   },
   {
-    name: 'María González',
-    vehicle: 'Ford Focus 2019',
+    name: 'Taller especializado',
+    place: 'La Plata, Buenos Aires',
     rating: 5,
-    comment: 'Muy contenta con el trabajo realizado. El vidrio quedó impecable y el precio fue justo. Los recomiendo totalmente.',
+    comment: 'Buena atención comercial y respuesta rápida ante pedidos urgentes',
   },
   {
-    name: 'Juan Pérez',
-    vehicle: 'Volkswagen Gol 2021',
+    name: 'Empresa del rubro automotor',
+    place: 'Trelew, Chubut',
     rating: 5,
-    comment: 'Servicio rápido y de calidad. Vinieron a mi domicilio y solucionaron el problema en el momento. Excelente atención.',
+    comment: 'Variedad de marcas y logística eficiente para operar sin interrupciones.',
   },
 ]
 
@@ -64,7 +64,7 @@ export default function Testimonials() {
               </p>
               <div className="border-t border-primary-200 pt-4">
                 <div className="font-semibold text-base-black">{testimonial.name}</div>
-                <div className="text-sm text-secondary-600">{testimonial.vehicle}</div>
+                <div className="text-sm text-secondary-600">{testimonial.place}</div>
               </div>
             </motion.div>
           ))}
