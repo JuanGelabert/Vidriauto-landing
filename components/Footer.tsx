@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <Image src="/images/logo-blanco.png" alt="Vidriauto logo" width={120} height={120} className="mx-auto" />
+            <Image src="/images/logo-blanco.png" alt="Vidriauto logo" width={150} height={150} className="mx-auto" />
             <p className="text-base-white/70 text-sm leading-relaxed text-center">
               {siteConfig.company.description}
             </p>
