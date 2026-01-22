@@ -8,7 +8,7 @@ const services = [
   {
     icon: LuWarehouse,
     title: 'Variedad de Stock',
-    description: 'Amplia disponibilidad de cristales del automotor, con cobertura de múltiples modelos y reposición permanente..',
+    description: 'Amplia disponibilidad de cristales del automotor, con cobertura de múltiples modelos y reposición permanente.',
     color: 'from-primary-500 to-primary-600',
   },
   {

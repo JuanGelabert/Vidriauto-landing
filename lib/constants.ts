@@ -29,7 +29,7 @@ export const siteConfig = {
   // WhatsApp
   whatsapp: {
     number: '5492214350868', // Actualizar con número actual
-    message: 'Hola, me interesaría consultar precios y disponibilidad de stock',
+    message: 'Buen día, me interesaría consultar por la lista de precios.',
   },
 }
 

@@ -6,7 +6,7 @@ import { FiStar } from 'react-icons/fi'
 const testimonials = [
   {
     name: 'Colocadora de cristales',
-    place: 'Ciudad autónoma de Buenos Aires',
+    place: 'Ciudad Autónoma de Buenos Aires',
     rating: 5,
     comment: 'Proveedor confiable, con buena disponibilidad de stock y entregas en tiempo.',
   },
