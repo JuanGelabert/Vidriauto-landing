@@ -2,12 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['vidriauto.com.ar'],
+    unoptimized: true,
   },
   // Optimización para SEO y performance
   compress: true,
   poweredByHeader: false,
+
+  // Exportar como sitio estático
+  output: 'export',
 }
 
 module.exports = nextConfig
-
