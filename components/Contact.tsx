@@ -31,7 +31,7 @@ export default function Contact() {
       fd.append('message', formData.message)
       fd.append('_subject', `Nuevo contacto desde la web - ${formData.name}`)
       fd.append('_template', 'table')
-      fd.append('_captcha', 'false')
+      fd.append('_captcha', 'true')
       // Honeypot anti-spam (si un bot lo completa, lo tratamos como error silencioso)
       fd.append('_honey', '')
 
